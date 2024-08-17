@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/styles/main.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem;
+        }
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/new-entry">New Entry</a>
+            
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="card">
+            <h2>Welcome to Your Book Management App!</h2>
+            <p>Our application is designed to help you keep track of all the non-fiction books you read. With this app, you can:</p>
+            <ul>
+                <li>Display a list of books you've read</li>
+                <li>Sort books by title, date read, or rating</li>
+                <li>Add new book entries with detailed information</li>
+                <li>Update your reviews and notes</li>
+                <li>Delete books and associated notes</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Features</h2>
+            <p>Our app provides a user-friendly interface with the following features:</p>
+            <ul>
+                <li><strong>Book Listing:</strong> View all books you have read in a sortable list.</li>
+                <li><strong>Sorting:</strong> Easily sort books based on title, date, or rating.</li>
+                <li><strong>Adding New Entries:</strong> Add new books with details like ISBN, title, author, and reviews.</li>
+                <li><strong>Review Update:</strong> Edit your reviews for any book.</li>
+                <li><strong>Book Deletion:</strong> Remove books and their notes from the system.</li>
+                <li><strong>Notes:</strong> Add, update, and delete notes for each book.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Technologies Used</h2>
+            <p>This project leverages a variety of technologies to deliver a seamless experience:</p>
+            <ul>
+                <li><strong>Express.js:</strong> For server-side functionality.</li>
+                <li><strong>EJS:</strong> For rendering dynamic HTML views.</li>
+                <li><strong>PostgreSQL:</strong> For data storage and management.</li>
+                <li><strong>Axios:</strong> For making HTTP requests to external APIs.</li>
+                <li><strong>Node.js:</strong> For running the server-side code.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Book Management App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
