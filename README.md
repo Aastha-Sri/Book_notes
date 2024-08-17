@@ -1,4 +1,4 @@
-# Reader's Logbook
+# Book Notes App
 This is a capstone project for a Udemy course called The Complete Web Development Bootcamp 2023 (by The App Brewery).
 
 > ## Project Instructions
